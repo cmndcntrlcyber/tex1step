@@ -1,0 +1,17 @@
+{
+  "name": "windows-system-manager",
+  "version": "1.0.0",
+  "description": "Windows System Management Service",
+  "main": "/home/cmndcntrl/code/tex1step/src/server/index.js",
+  "bin": "/home/cmndcntrl/code/tex1step/src/server/index.js",
+  "pkg": {
+    "assets": [
+      "node_modules/**/*",
+      "src/**/*"
+    ],
+    "targets": [
+      "node16-win-x64"
+    ],
+    "outputPath": "/home/cmndcntrl/code/tex1step/dist"
+  }
+}
